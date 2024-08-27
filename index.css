@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+.top-header, .body-section, .faq-container   {
+   border-bottom: 5px solid #535251;
+}
+
+.top-header {
+    height: 100vh;
+    background-image:url(https://assets.nflxext.com/ffe/siteui/vlv3/655a9668-b002-4262-8afb-cf71e45d1956/5ff265b6-3037-44b2-b071-e81750b21783/IN-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_c6d6616f-4478-4ac2-bdac-f54b444771dd_medium.jpg);
+}
+
+ .container {
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+ }
+
+ .dropdown-container {
+    position: relative;
+ }
+
+ .btn {
+    background-color: #E50815;
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+ }
+
+.language-picker {
+   padding: 10px 30px;
+   background-color: rgba(0,0,0,0.7);
+   color: white;
+   border: 1px solid #535251;
+   border-radius: 5px;
+
+}
+.language{
+    left: 4px;
+}
+.language, .drop-down {
+    position: absolute;
+    top: 5px;
+ }
+
+
+ .drop-down {
+      right: -2px;
+      top: 6px;
+ }
+ .navbar {
+    margin: 0px 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .right-half {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+ }
+ /* Header Content style */
+ .content {
+   margin:20vh auto;
+   width: 60%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+ }
+ .content h1 , .content p {
+   margin: 20px;
+ }
+ .content h1 {
+   font-size: 50px;
+   font-weight: bold;
+ }
+ .content p {
+   font-size: 24px;
+   font-weight: 600;
+ }
+
+.email-container {
+   display: flex;
+   gap: 20px;
+   width: 70%;
+   margin-top: 20px;
+}
+.email-container > input {
+   flex-grow: 1;
+   background-color: rgba(0,0,0,0.7);
+   border: 1px solid #535251;
+   padding: 0 10px;
+   border-radius: 5px;
+   color: white;
+   
+}
+.get-started-btn {
+   display: flex;
+   align-items: center;
+   font-size: 24px;
+}
+.get-started-btn > span {
+   font-size: 30px !important;
+}
+
+/* Body Section */
+.body-section{
+   display: flex;
+   align-items: center;
+   padding: 0 100px;
+}
+
+.left-items h1, .right-items h1{
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.left-items p, .right-items p{
+   font-size: 24px;
+}
+.right-items{
+   position: relative;
+}
+
+.right-items > video {
+   position: absolute;
+   left: 80px;
+   top: 20%;
+   z-index: -1;
+}
+
+.faq-container {
+   padding: 40px 100px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+
+.faq-container > h1 {
+   font-size: 55px;
+   margin-bottom: 20px;
+}
+
+.faq {
+   display: flex;
+   justify-content: space-between;
+   align-self: stretch;
+   padding: 20px;
+   border-radius: 4px;
+   background-color: #2d2d2d;
+   transition-duration: 0.5s;
+}
+
+.faq > p, .faq > span{
+   font-size: 26px !important;
+}
+
+.faq:hover {
+   background-color: #736c6c ;
+}
+
+.faq-container > p {
+   font-size: 30px;
+   margin: 20px 0;
+}
+
+/* footer styles */
+.footer-container {
+   padding: 100px;
+}
+.footer-container, .footer-container a {
+   color: #afafaf;
+}
+
+.links-container {
+   display: flex;
+   gap: 200px;
+   justify-content: flex-start;
+   padding: 40px 0;
+}
+.links-item {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+
+
+
+
+
